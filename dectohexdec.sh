@@ -1,5 +1,5 @@
 #!/bin/bash
-n=124
+read -p "enter the decimal no: " n
 i=0
 j=0
 while [ $n -gt $i ]
@@ -17,6 +17,7 @@ b3=12
 b4=13
 b5=14
 b6=15
+echo "hexadecimal no will be: "
 while [ $a -gt $i ]
 do
 f=$(( $a - 1 ))
@@ -29,7 +30,16 @@ then
 temp[$f]='B'
 elif [ ${temp[$f]} -eq $b3 ]
 then
-temp[$f]='c'
+temp[$f]='C'
+elif [ ${temp[$f]} -eq $b4 ]
+then
+temp[$f]='D'
+elif [ ${temp[$f]} -eq $b5 ]
+then
+temp[$f]='E'
+elif [ ${temp[$f]} -eq $b6 ]
+then
+temp[$f]='F'
 fi
 echo -n ${temp[$f]}
 a=$(( $a - 1 ))
