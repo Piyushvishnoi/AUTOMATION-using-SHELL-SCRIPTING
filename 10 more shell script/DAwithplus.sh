@@ -1,5 +1,5 @@
 #bin/bash
-#Printing da with +
+#Printing da  with +
 
 echo " +++++         ++"
 echo " +    +       +  +"
