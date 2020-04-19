@@ -4,7 +4,7 @@ num=$n
 j=0
 res=0
 mul=1
-k=10
+k=10 
 while [ $num -gt $j ]
 do
 rem=` expr  $num %  $k `
