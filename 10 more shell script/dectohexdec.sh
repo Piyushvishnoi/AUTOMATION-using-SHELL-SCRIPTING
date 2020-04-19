@@ -9,7 +9,7 @@ do
 temp[$j]=$(( $n % 16 ))
 echo ${temp[$j]}
 j=$(( $j + 1 ))
-n=$(( n / 16 ))
+n=$(( n / 16 )) 
 done
 a=${#temp[@]}
 echo $a
